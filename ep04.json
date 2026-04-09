@@ -1,65 +1,73 @@
 {
-  "type": "bubble",
-  "hero": {
-    "type": "image",
-    "url": "https://ssunshine0608.github.io/weblink/ep04.jpg",
-    "size": "full",
-    "aspectRatio": "1:1",
-    "aspectMode": "cover",
-    "action": {
-      "type": "uri",
-      "uri": "https://teams.microsoft.com/meet/42905074912111?p=L6KEuc8hFXgwBAixjd"
-    }
-  },
-  "body": {
-    "type": "box",
-    "layout": "vertical",
-    "contents": [
-      {
-        "type": "text",
-        "text": "Adobe AI 快充學堂",
-        "weight": "bold",
-        "color": "#E1251B",
-        "size": "sm"
-      },
-      {
-        "type": "text",
-        "text": "課程開課通知",
-        "weight": "bold",
-        "size": "xl",
-        "margin": "md"
-      },
-      {
-        "type": "text",
-        "text": "解放 Acrobat 超能力 序章",
-        "weight": "bold",
-        "size": "md",
-        "margin": "md",
-        "wrap": true
-      },
-      {
-        "type": "text",
-        "text": "打造批次處理大量文件的工作流！",
-        "weight": "bold",
-        "size": "md",
-        "wrap": true
-      }
-    ]
-  },
-  "footer": {
-    "type": "box",
-    "layout": "vertical",
-    "contents": [
-      {
-        "type": "button",
-        "style": "primary",
-        "color": "#000000",
-        "action": {
-          "type": "uri",
-          "label": "點擊開啟直播連結",
-          "uri": "https://teams.microsoft.com/meet/42905074912111?p=L6KEuc8hFXgwBAixjd"
+  "messages": [
+    {
+      "type": "flex",
+      "altText": "Adobe AI 快充學堂 - 課程開課通知",
+      "contents": {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "url": "https://ssunshine0608.github.io/weblink/ep04.jpg",
+          "size": "full",
+          "aspectRatio": "1:1",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "uri": "https://teams.microsoft.com/meet/42905074912111?p=L6KEuc8hFXgwBAixjd"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "Adobe AI 快充學堂",
+              "weight": "bold",
+              "color": "#E1251B",
+              "size": "sm"
+            },
+            {
+              "type": "text",
+              "text": "課程開課通知",
+              "weight": "bold",
+              "size": "xl",
+              "margin": "md"
+            },
+            {
+              "type": "text",
+              "text": "解放 Acrobat 超能力 序章",
+              "weight": "bold",
+              "size": "md",
+              "margin": "md",
+              "wrap": true
+            },
+            {
+              "type": "text",
+              "text": "打造批次處理大量文件的工作流！",
+              "weight": "bold",
+              "size": "md",
+              "wrap": true
+            }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#000000",
+              "action": {
+                "type": "uri",
+                "label": "點擊開啟直播連結",
+                "uri": "https://teams.microsoft.com/meet/42905074912111?p=L6KEuc8hFXgwBAixjd"
+              }
+            }
+          ]
         }
       }
-    ]
-  }
+    }
+  ]
 }
